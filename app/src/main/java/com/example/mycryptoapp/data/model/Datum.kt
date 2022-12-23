@@ -1,4 +1,4 @@
-package com.example.mycryptoapp.pojo
+package com.example.mycryptoapp.data.model
 
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
