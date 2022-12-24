@@ -67,8 +67,7 @@ class CoinMapper {
         return sdf.format(date)
     }
 
-    companion object {
-
+   private companion object {
         const val BASE_IMAGE_URL = "https://cryptocompare.com"
     }
 }
