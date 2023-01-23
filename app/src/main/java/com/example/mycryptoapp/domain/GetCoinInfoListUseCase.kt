@@ -1,6 +1,8 @@
 package com.example.mycryptoapp.domain
 
-class GetCoinInfoListUseCase(
+import javax.inject.Inject
+
+class GetCoinInfoListUseCase @Inject constructor (
     private val repository: CoinRepository
 ) {
 
